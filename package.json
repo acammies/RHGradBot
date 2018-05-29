@@ -1,0 +1,32 @@
+{
+  "name": "RHGradBot",
+  "version": "1.0.0",
+  "description": "A telegram bot for welcoming newcomers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acammies/paulobot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "RedHat",
+    "welcome",
+    "chatbot"
+  ],
+  "author": "Aidan Cammies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acammies/RHGradBot/issues"
+  },
+  "homepage": "https://github.com/acammies/RHGradBot#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.85.0",
+    "telebot": "^1.2.6"
+  }
+}
